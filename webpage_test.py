@@ -16,12 +16,17 @@ hostName ='127.0.0.1'
 def hello():
     
     
-    html = "<h3>Hello World!</h3>" \
+    html = "<h3>Hello World3!</h3>" \
                "This is a webpage being run on python<br/>" \
+<<<<<<< HEAD
 
                "There may be some changes here in the future This is a testtesttes"
                "There may be some changes here in the future This is a test, another tessst"
 
+=======
+               "There may be some changes here in the future This is a testtesttest"\
+               "There may be some changes here in the future This is a test, another test, ryan test"
+>>>>>>> 49c94b68f4156befbdfbe78efb533b323ac73522
     return html.format()
 def test_answer():
     assert 2==2
